@@ -1,5 +1,7 @@
 # Rust for backend developers
 
+This repository contains mdBook source for the book: https://rust-for-backend-developers.github.io/
+
 ## Running locally
 
 1\) Install `mdBook`: https://rust-lang.github.io/mdBook/guide/installation.html
