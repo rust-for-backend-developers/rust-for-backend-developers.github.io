@@ -1,7 +1,7 @@
 [book]
-title = "Вкатываемся в Rust"
+title = "Rust для back-end разработчиков"
 language = "ru"
-authors = ["Stanislav Norochevskiy"]
+authors = ["Stanislav Norochevskyi"]
 description = "Быстрое погружение в написание back-end приложений на Rust"
 
 [output.html]
