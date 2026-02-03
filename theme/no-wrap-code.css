@@ -1,0 +1,12 @@
+/* For fenced code blocks (```) and indented code blocks */
+pre, pre > code {
+    white-space: pre; /* This is the default, but ensures it's set */
+    word-wrap: normal;
+    overflow-x: auto; /* Adds a horizontal scrollbar if needed */
+}
+
+/* For inline code (`code`) */
+code {
+    white-space: nowrap;
+    word-wrap: normal;
+}

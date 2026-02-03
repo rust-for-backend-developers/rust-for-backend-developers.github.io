@@ -1,0 +1,153 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.4">
+  <diagram name="Page-1" id="EwWNF2fr-GowHAq7oKMM">
+    <mxGraphModel dx="1127" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;align=left;verticalAlign=top;" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;поток, обслуживающий&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;неблокируюший&lt;br&gt;ввод/вывод&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="390" width="180" x="10" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;align=center;verticalAlign=middle;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Executor&lt;/font&gt;" vertex="1">
+          <mxGeometry height="500" width="70" x="770" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-9" edge="1" parent="1" source="FzM_WbIFRmruJN-8_WNg-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.699;exitY=1.031;exitDx=0;exitDy=0;exitPerimeter=0;" target="FzM_WbIFRmruJN-8_WNg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="выполнить чтение/запись" vertex="1">
+          <mxGeometry height="40" width="110" x="60" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-10" edge="1" parent="1" source="FzM_WbIFRmruJN-8_WNg-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FzM_WbIFRmruJN-8_WNg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-23" edge="1" parent="1" source="FzM_WbIFRmruJN-8_WNg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FzM_WbIFRmruJN-8_WNg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="отправить&lt;br&gt;результат" vertex="1">
+          <mxGeometry height="40" width="70" x="105" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-11" edge="1" parent="1" source="FzM_WbIFRmruJN-8_WNg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="FzM_WbIFRmruJN-8_WNg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="считать заявки" vertex="1">
+          <mxGeometry height="40" width="60" x="110" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-12" edge="1" parent="1" source="FzM_WbIFRmruJN-8_WNg-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="FzM_WbIFRmruJN-8_WNg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="получить&lt;br&gt;дескрипторы" vertex="1">
+          <mxGeometry height="40" width="90" x="20" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-14" edge="1" parent="1" source="FzM_WbIFRmruJN-8_WNg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="FzM_WbIFRmruJN-8_WNg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="ожидать&lt;br&gt;готовые дескрипторы" vertex="1">
+          <mxGeometry height="60" width="90" x="10" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;заявки на&lt;br&gt;ввод/вывод&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="210" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Future 1: просто вычисления&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="310" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;align=left;verticalAlign=top;fontFamily=Courier New;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;fn poll(self, context) {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; Ready(вычисление)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;}&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Future 2: ввод/вывод&lt;/font&gt;" vertex="1">
+          <mxGeometry height="370" width="340" x="310" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;align=left;verticalAlign=top;fontFamily=Courier New;fontSize=14;" value="• waker: Option&amp;lt;&amp;amp;Waker&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="320" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;align=left;verticalAlign=top;fontFamily=Courier New;fontSize=14;" value="• result: Option&amp;lt;T&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="320" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;align=left;verticalAlign=top;fontFamily=Courier New;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;fn on_io_finished(io_result) {&lt;br&gt;&amp;nbsp; self.result = Some(io_result);&lt;br&gt;&amp;nbsp; self.waker.wake();&lt;br&gt;}&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="320" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;align=left;verticalAlign=top;fontFamily=Courier New;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;fn poll(self, context) {&lt;br&gt;&amp;nbsp; if result.is_none() {&lt;br&gt;&amp;nbsp; &amp;nbsp; self.waker = Some(context.waker);&lt;br&gt;&amp;nbsp; &amp;nbsp; запуск_неблокирующего_io();&lt;br&gt;&amp;nbsp; &amp;nbsp; Pending&lt;br&gt;&amp;nbsp; } else {&lt;br&gt;&amp;nbsp; &amp;nbsp; Ready(self.result)&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="320" x="320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="6) Фьючеру отправляется результата операции ввода/вывода" vertex="1">
+          <mxGeometry height="90" width="110" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;startArrow=oval;startFill=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="FzM_WbIFRmruJN-8_WNg-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="349" y="405.86" as="sourcePoint" />
+            <mxPoint x="230" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="4)Инициируется&lt;br&gt;запрос на&lt;br&gt;ввод/вывод" vertex="1">
+          <mxGeometry height="90" width="110" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="1) Поллит фьючер" vertex="1">
+          <mxGeometry height="20" width="140" x="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="50" as="sourcePoint" />
+            <mxPoint x="550" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="2) Сразу получает ответ" vertex="1">
+          <mxGeometry height="20" width="170" x="570" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="100" as="sourcePoint" />
+            <mxPoint x="760" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="492" y="299" as="sourcePoint" />
+            <mxPoint x="770" y="299.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="7) Оповещение&lt;br&gt;о готовности" vertex="1">
+          <mxGeometry height="40" width="110" x="650" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-34" edge="1" parent="1" source="FzM_WbIFRmruJN-8_WNg-2" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="670" y="350" as="sourcePoint" />
+            <mxPoint x="640" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="3) Поллит впервые" vertex="1">
+          <mxGeometry height="40" width="110" x="650" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="5) Результат еще не готов" vertex="1">
+          <mxGeometry height="40" width="110" x="650" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="421" y="422.71" as="sourcePoint" />
+            <mxPoint x="770" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="770" y="463" as="sourcePoint" />
+            <mxPoint x="640" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="8) Полл снова" vertex="1">
+          <mxGeometry height="20" width="110" x="650" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.948;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeWidth=2;startArrow=oval;startFill=1;" target="FzM_WbIFRmruJN-8_WNg-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="520" />
+              <mxPoint x="740" y="520" />
+              <mxPoint x="740" y="494" />
+            </Array>
+            <mxPoint x="510" y="456" as="sourcePoint" />
+            <mxPoint x="620" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzM_WbIFRmruJN-8_WNg-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="9) Результат" vertex="1">
+          <mxGeometry height="20" width="110" x="640" y="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

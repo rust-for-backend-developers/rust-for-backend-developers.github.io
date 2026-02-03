@@ -1,0 +1,8 @@
+table.two-side tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+table.two-side td {
+    border: none;
+    vertical-align: top;
+}

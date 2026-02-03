@@ -1,0 +1,8 @@
+[book]
+title = "Вкатываемся в Rust"
+language = "ru"
+authors = ["Stanislav Norochevskiy"]
+description = "Быстрое погружение в написание back-end приложений на Rust"
+
+[output.html]
+additional-css = ["theme/no-wrap-code.css", "theme/table.css", "theme/ascii-diagram.css"]

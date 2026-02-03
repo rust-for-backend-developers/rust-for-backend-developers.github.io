@@ -1,0 +1,8 @@
+pre.ascii-diagram code {
+    background-color: white;
+}
+
+pre.ascii-diagram {
+    padding-left:3%;
+    font-size: 0.875em;
+}

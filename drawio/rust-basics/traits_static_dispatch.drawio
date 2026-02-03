@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.4">
+  <diagram name="Page-1" id="b1s_XSHWF7ogID3HUWKP">
+    <mxGraphModel dx="777" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;align=left;verticalAlign=top;spacingTop=-5;dashed=1;spacingLeft=5;" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Code segment&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="830" x="10" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeWidth=2;verticalAlign=top;spacingLeft=5;fillColor=none;" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px;&quot;&gt;fn main() {&lt;br&gt;&amp;nbsp; let person = ...;&lt;br&gt;&amp;nbsp; let dog = ...;&lt;br&gt;&amp;nbsp; print_introduction_$Person(&amp;amp;person);&lt;br&gt;&amp;nbsp; print_introduction_$Dog(&amp;amp;dog);&lt;br&gt;}&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="340" x="30" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeWidth=2;verticalAlign=top;spacingLeft=5;fillColor=none;" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px;&quot;&gt;fn print_introduction_$Person(v: &amp;amp;Person) {&lt;br&gt;&amp;nbsp; introduce(v);&lt;br&gt;}&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="380" x="440" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeWidth=2;verticalAlign=top;spacingLeft=5;fillColor=none;" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px;&quot;&gt;fn introduce(self: &amp;amp;Person)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="250" x="580" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeWidth=2;verticalAlign=top;spacingLeft=5;fillColor=none;" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px;&quot;&gt;fn print_introduction_$Dog(v: &amp;amp;Dog) {&lt;br&gt;&amp;nbsp; introduce(v);&lt;br&gt;}&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="330" x="440" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeWidth=2;verticalAlign=top;spacingLeft=5;fillColor=none;" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px;&quot;&gt;fn introduce(self: &amp;amp;Dog)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="610" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;startArrow=oval;startFill=1;" target="oTURkwtLRPUHRKTKTjoH-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="358" y="306" as="sourcePoint" />
+            <mxPoint x="443" y="253.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.274;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;startArrow=oval;startFill=1;entryPerimeter=0;" target="oTURkwtLRPUHRKTKTjoH-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="323" />
+              <mxPoint x="360" y="370" />
+              <mxPoint x="410" y="370" />
+            </Array>
+            <mxPoint x="309" y="323" as="sourcePoint" />
+            <mxPoint x="429" y="410.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=oval;startFill=1;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;" target="oTURkwtLRPUHRKTKTjoH-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="587" y="243" />
+              <mxPoint x="587" y="272" />
+              <mxPoint x="560" y="272" />
+              <mxPoint x="560" y="308" />
+            </Array>
+            <mxPoint x="576" y="243" as="sourcePoint" />
+            <mxPoint x="576.0000000000001" y="300.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTURkwtLRPUHRKTKTjoH-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=oval;startFill=1;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;" target="oTURkwtLRPUHRKTKTjoH-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="587" y="384" />
+              <mxPoint x="587" y="413" />
+              <mxPoint x="570" y="413" />
+              <mxPoint x="570" y="447" />
+            </Array>
+            <mxPoint x="575.97" y="384" as="sourcePoint" />
+            <mxPoint x="579.97" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
