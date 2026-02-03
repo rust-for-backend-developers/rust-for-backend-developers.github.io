@@ -115,7 +115,7 @@ fn main() {
     let closure_result: Result<String, Box<dyn Any + Send + 'static>> =
         panic::catch_unwind(|| serve_request(request));
 
-        if let Err(a) = closure_result {
+    if let Err(a) = closure_result {
         if let Some(panic_obj) = a.downcast_ref::<ProcessingErr>() {
             println!("Panic object: {panic_obj:?}");
         }

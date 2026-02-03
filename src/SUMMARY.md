@@ -98,3 +98,7 @@
 * [Документирование API](web/api-doc.md)
 * [Prometheus метрики](web/prometheus-metrics.md)
 * [Кросс сборка](web/cross-compilation.md)
+
+---
+
+* [Финал](final.md)
