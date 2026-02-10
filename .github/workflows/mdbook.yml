@@ -43,9 +43,11 @@ jobs:
       - name: Build with mdBook
         run: mdbook build
       - name: Add sitemap
-        run: cp sitemap.xml ./book/
+        run: cp seo/sitemap.xml ./book/
       - name: Add robots
-        run: cp robots.txt ./book/
+        run: cp seo/robots.txt ./book/
+      - name: Add ya identifier
+        run: cp seo/ya/yandex_ad8af97539e1d5fd.html ./book/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
