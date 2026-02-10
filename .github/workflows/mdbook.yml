@@ -44,6 +44,8 @@ jobs:
         run: mdbook build
       - name: Add sitemap
         run: cp sitemap.xml ./book/
+      - name: Add robots
+        run: cp robots.txt ./book/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
