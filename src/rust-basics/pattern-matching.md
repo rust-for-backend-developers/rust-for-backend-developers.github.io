@@ -273,7 +273,7 @@ fn main() {
     let is_anonymous = match name {
         s if s == "Anonymous" => true,
         s if s == "John Doe"  => true,
-        _                             => false,
+        _                     => false,
     };
     println!("{is_anonymous}"); // false
 }

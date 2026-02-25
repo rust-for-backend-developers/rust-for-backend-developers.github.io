@@ -34,10 +34,7 @@
 
 ## От автора
 
-Я сталася написать текст простым и понятным, но, вероятно, мне это удалось не везде. Если вы нашли опечатку, неточность, или вам кажется, что какой-то момент можно было бы перефразировать лучше, то, пожалуйста, напишите об этом:
+Я старался написать текст простым и понятным, но, вероятно, мне это удалось не везде. Если вы нашли опечатку, неточность, или вам кажется, что какой-то момент можно было бы перефразировать лучше, то, пожалуйста, напишите об этом на email: rust.for.backend.developers@gmail.com. Или же вы можете сделать мердж реквест в [репозиторий книги](https://github.com/rust-for-backend-developers/rust-for-backend-developers.github.io).
 
-* на email: rust.for.backend.developers@gmail.com
-* или в телеграм группу [https://t.me/rust_for_backend_developers_ru](https://t.me/rust_for_backend_developers_ru)
-
-Или же вы можете сделать мердж реквест в репозиторий книги: https://github.com/rust-for-backend-developers/rust-for-backend-developers.github.io
+Если хотите связаться со мной лично, то можете написать мне в [Linkedin](https://www.linkedin.com/in/stanislav-norochevskyi-18462348/).
 

@@ -517,7 +517,7 @@ fn main() {
 Как это работает?
 
 * Сначала мы создаём объект типа [Span](https://docs.rs/tracing/latest/tracing/struct.Span.html), при помощи которого говорим, что хотим, чтобы для логов с уровнем INFO добавлялся атрибут с именем "attr1" и значением `5`.
-* Далее мы мы "активируем" span в текущей области путём вызова метода [enter](https://docs.rs/tracing/latest/tracing/struct.Span.html#method.enter). Этот метод возвращает объект типа [Entered](https://docs.rs/tracing/latest/tracing/span/struct.Entered.html), который представляет из себя активированный span.
+* Далее мы "активируем" span в текущей области путём вызова метода [enter](https://docs.rs/tracing/latest/tracing/struct.Span.html#method.enter). Этот метод возвращает объект типа [Entered](https://docs.rs/tracing/latest/tracing/span/struct.Entered.html), который представляет из себя активированный span.
 * В той области кода, в которой жив объект `Entered`, к логам будут добавляться атрибуты из span объекта.
 
 Рассмотрим следующий пример, который наглядно демонстрирует, что атрибуты из span добавляются в лог-сообщение, только в той области, где существует объект `Entered`.
