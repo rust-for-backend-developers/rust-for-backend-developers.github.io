@@ -773,7 +773,7 @@ struct Employee {
 }
 
 fn main() {
-    let emp: Employee = serde_json::from_str(r#"{"fistName":"John"}"#).unwrap();
+    let emp: Employee = serde_json::from_str(r#"{"firstName":"John"}"#).unwrap();
     println!("{emp:?}");
 }
 ```

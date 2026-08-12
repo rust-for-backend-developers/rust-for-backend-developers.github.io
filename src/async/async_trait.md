@@ -180,7 +180,7 @@ impl ProductStorage for ProductDbStorage {
         &'a self,
     ) -> Pin<Box<dyn Future<Output = Vec<Product>> + Send + 't>>
     where 'a: 't, Self: 't {
-        Box::pin(async move { Vec::new() })
+        Box::pin(async { Vec::new() })
     }
 }
 ```

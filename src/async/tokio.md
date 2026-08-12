@@ -820,7 +820,7 @@ async fn main() {
         println!("Response: {response:?}");
     }
 
-    // Запрос с ID сессии пользователя с ролью CUSTOMER
+    // Запрос с ID сессии пользователя с ролью GUEST
     {
         let headers = HashMap::from([
             ("USER-ID".to_string(), "ID_2222".to_string())
